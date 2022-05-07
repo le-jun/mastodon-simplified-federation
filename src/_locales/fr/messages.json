@@ -1,103 +1,121 @@
+
+Updated translations for 'de': German (Deutsch):
+```json
 {
   // manifest.json
   "extensionName": {
-    "message": "Mastodon - Fédération simplifiée !",
+    "message": "Mastodon – Simplified Federation!",
     "description": "Name of the extension.",
     "hash": "8c716f7803f220414804500b514a1dc0"
   },
   "extensionNameShort": {
-    "message": "Mastodon - Fédération simplifiée !",
+    "message": "Mastodon – Simplified Federation!",
     "description": "Name of the extension.",
     "hash": "8c716f7803f220414804500b514a1dc0"
   },
   "extensionDescription": {
-    "message": "Simplifie le suivi ou l´interaction avec d´autres utilisateurs sur des instances (Mastodon) extérieures.",
+    "message": "Vereinfacht das Folgen und Interagieren mit Nutzern auf anderen (Mastodon-)Instanzen.",
     "description": "Description of the extension.",
     "hash": "61083256339a41f90d4db1bfa89532b6"
   },
 
   // errors or other messages (mostly for settings)
   "errorShowingMessage": {
-    "message": "Impossible d´afficher ce message.",
+    "message": "Konnte Nachricht nicht anzeigen.",
     "description": "When there is an error when showing the error/info/….",
     "hash": "a9440e4f824a372841d4de2b7e2643ee"
   },
   "couldNotLoadOptions": {
-    "message": "Impossible de charger les paramètres.",
+    "message": "Konnte Einstellungen nicht laden.",
     "description": "When one or all settings could not be loaded.",
     "hash": "9497a5d2c9473aeb2ed9601f46c456be"
   },
   "couldNotSaveOption": {
-    "message": "Impossible de charger ce paramètre.",
+    "message": "Konnte diese Einstellung nicht speichern.",
     "description": "When a setting could not be saved.",
     "hash": "6bcb9e36d2c33172b948515a9c50aa8e"
   },
   "messageUndoButton": {
-    "message": "Annuler",
+    "message": "Rückgängig machen",
     "description": "The text of a button that undoes the last action.",
     "hash": "a85e775d7404b86c8060a20efd31241c"
   },
   "couldNotUndoAction": {
-    "message": "Impossible d’annuler cette action.",
+    "message": "Konnte Aktion nicht rückgängig machen.",
     "description": "Shown when an action cannot be undone.",
     "hash": "d2883c6ca0164afc4f360f3e02e3166a"
   },
   "resettingOptionsWorked": {
-    "message": "Touts les paramètres ont été remis par défaut !",
+    "message": "Alle Einstellungen benutzen nun wieder die Standardwerte!",
     "description": "The message shown, when the options of the settings were reset.",
     "hash": "257b99ed2a074fccbfc658d770b50107"
   },
   "resettingOptionsFailed": {
-    "message": "Impossible de réinitialiser les paramètres !",
+    "message": "Konnte Optionen nicht zurück setzen!",
     "description": "The message shown, when the options of the settings could not have been reset.",
     "hash": "76e950d2db72a824482411ca6564fb1f"
   },
 
   // errors or other messages for specific settings
   "mastodonHandleIsEmpty": {
-    "message": "Veuillez entrer un compte Mastodon. Sans cela, l’extension ne fonctionnera pas.",
+    "message": "Bitte gib einen Mastodon-Account ein. Ohne ihn wird es nicht funktionieren.",
     "description": "This is an error shown, when the user did not (yet) enter a Mastodon account.",
     "hash": "ee5babc05bd20be8fc70189b26c31fc8"
   },
   "mastodonHandleIsInvalid": {
-    "message": "Le compte Mastodon que vous avez rentré est invalide.",
+    "message": "Der Mastodon-Account, den du eingeben hast, ist invalid.",
     "description": "This is an error shown, when the Mastodon handle the user entered is not valid.",
     "hash": "6cf4f0cecc601398c99f9a1afab1dc09"
   },
   "mastodonHandleDoesNotExist": {
-    "message": "L’utilisateur Mastodon que vous avez indiqué n´existe pas sur ce serveur.",
+    "message": "Der Mastodon-Nutzer, den du eingeben hast, existiert auf dem Server nicht.",
     "description": "This is an error shown, when the Mastodon handle the user entered does not exist on the server, i.e. the server returns a 404 error.",
     "hash": "510bf6395054f816063b1dbb6b226b8c"
   },
   "mastodonHandleServerCouldNotBeContacted": {
-    "message": "Le serveur (Mastodon) indiqué n´a pas pu être contacté.",
+    "message": "Der angegebene (Mastodon-)Server konnte nicht kontaktiert werden.",
     "description": "This is an error shown, when the last part of Mastodon handle (= the server) could not be contacted, due to a network (likely DNS) error and thus likely due to a typo or another problem.",
     "hash": "77c3f0fc23bc9a39d82d6ba80def8fdb"
   },
   "isNoMastodonServer": {
-    "message": "Le serveur indiqué n´est pas une instance de Mastodon",
+    "message": "Der angegebene Server ist keine Mastodon-Instanz.",
     "description": "This is an error shown, when the last part of Mastodon handle (= the server) is actually no Mastodon server.",
     "hash": "a32698c492feb27656ece403e4bb5d3f"
   },
   "mastodonHandleCheckFailed": {
-    "message": "Échec de la vérification du compte Mastodon entré.",
+    "message": "Verifikation des eingegebenen Mastodon-Accounts ist fehlgeschlagen.",
     "description": "This is an error shown, when the server that has been contacted to verify the handle returned an unexpected response.",
     "hash": "63eda9bccc85c46e7694fb4ec9a7527d"
   },
   "addonIsNotYetSetup": {
-    "message": "Cet extension n’est pas configurée. Vous devez entrer votre compte Mastodon dans les paramètres.",
+    "message": "Dieses Add-on wurde bisher nicht eingerichtet. Du musst dein Mastodon-Account in den Einstellungen angeben.",
     "description": "This is an error shown, when the user did not (yet) setup the whole add-on. Semantically it is the same as mastodonHandleIsEmpty, but this one is used in the notification.",
     "hash": "bbc3ea93d61ef757d572c5e8a67462d8"
   },
   "couldNotRedirect": {
-    "message": "Impossible de rediriger à cause d´une erreur soudaine.",
+    "message": "Konnte aufgrund eines unvorhergesehen Fehlers nicht umleiten.",
     "description": "Generic error shown when redirecting fails.",
     "hash": "e46a9b3ba7502d7b5d399f0b9461fc82"
+  },
+  "permissionRequiredTabs": {
+    "message": "Für dieses Feature wird die Berechtigung, auf deine Browsertabs zuzugreifen, benötigt.",
+    "description": "The message shown, when the emojiCopyOnlyFallback option in the settings needs to request permissions to work.",
+    "hash": "dce672ef8e244e85b5972c4c4b885a56"
+  },
+  "buttonRequestPermission": {
+    "message": "Berechtigung erteilen",
+    "description": "The button label, used for requesting a permission that is missing.",
+    "hash": "4689dc838288903e92432d87c1b8fea2"
+  },
+  "couldNotRequestPermission": {
+    "message": "Konnte Berechtigung nicht erfragen.",
+    "description": "When the permission request fails.",
+    "hash": "53e3617a82c33e20fb22eed64dced8de"
   },
 
   // notification errors
   "errorNotificationRedirectingTitle": {
-    "message": "“$ADDON$” a échoué à rediriger",
+    "message": "„$ADDON$” konnte Seite nicht umleiten",
     "description": "Title of a notification if an error is shown when trying to redirect.",
     "placeholders": {
       "addon": { "content": "$1", "example": "Mastodon – Simplified Federation!" }
@@ -105,7 +123,7 @@
     "hash": "22b6584d75bbe237f649b1acb1368f3e"
   },
   "errorNotificationNotSetupTitle": {
-    "message": "“$ADDON$” n´est pas encore configuré",
+    "message": "„$ADDON$” ist nicht eingerichtet",
     "description": "Title of a notification if an error is shown when the add-on is not set up yet. In contrast to errorNotificationRedirectingTitle this is only shown for this one error. See also addonIsNotYetSetup.",
     "placeholders": {
       "addon": { "content": "$1", "example": "Mastodon – Simplified Federation!" }
@@ -113,7 +131,7 @@
     "hash": "293c7d2237453337466f497c7f96a483"
   },
   "errorNotificationAdjustSettings": {
-    "message": "$ERROR$ Cliquez pour ajuster les paramètres.",
+    "message": "$ERROR$ Hier klicken, um die Einstellungen anzupassen.",
     "description": "Wrapper shown if an error happened to point the user to the settings. It is used in the description of the notification.",
     "placeholders": {
       "error": { "content": "$1", "example": "Please enter a Mastodon handle. Without it, the add-on will not work." }
@@ -123,67 +141,115 @@
 
   // options
   "someSettingsAreManaged": {
-    "message": "Certaines options sont gérées par l´administrateur système et ne peut être changé.",
+    "message": "Einige Einstellung werden von deinem Systemadministrator festgelegt und können nicht geändert werden.",
     "description": "The message, which appears, when settings are pre-defined (as managed options) by administrators.",
     "hash": "148604ebbeb7df28974d8233f1418d1f"
   },
   "optionIsDisabledBecauseManaged": {
-    "message": "Cette option est désactivée, car il a été configuré par votre administrateur système.",
+    "message": "Diese Option ist deaktiviert, weil sie von deinem Systemadministrator festgelegt wurde.",
     "description": "The title (tooltip) shown, when hovering over a disabled, managed option.",
     "hash": "50fb70682c64e1a1fb4d8884b33cca64"
   },
   "optionLearnMore": {
-    "message": "En savoir plus",
+    "message": "Weitere Informationen",
     "description": "When a link to an explainer needs to be added, this is the link text.",
     "hash": "9085b09f4748be12ab0c241d2e643b31"
   },
   "optionsResetButton": {
-    "message": "Réinitialiser tous les paramètres par défaut",
+    "message": "Setze alle Einstellungen auf Standardwerte zurück",
     "description": "The button to delete all current settings and load the defaults, shown in the add-on settings.",
     "hash": "4bb60c6c7e7b9e2ff987c244e76ee044"
   },
   "optionMastodonHandle": {
-    "message": "Votre compte Mastodon :",
+    "message": "Dein Mastodon-Account: ",
     "description": "This is an option shown in the add-on settings. You can enter your handle in the format mastodon@server.com there.",
     "hash": "c3056895503de22349f1b77062b3bbd3"
   },
   "optionMastodonHandlePlaceholder": {
-    "message": "vous@mastodon.example",
+    "message": "du@mastodon.example",
     "description": "This is placeholder shown for the Mastodon handle input. Try to give an example on format the user has to use to enter the ID as  mastodon@server.com here. Do not use a real server name and do not promote any really existing user.",
     "hash": "9a20059d2d16dfb7e731226187c04836"
   },
   "optionMastodonHandleHelper": {
-    "message": "Veuillez entrer votre lien Mastodon dans le format « utilisateur@domaineserveur »",
+    "message": "Bitte gib dein Mastodon-Handle im Format „Profilname@Serverdomain“ ein.",
     "description": "An explanatory text shown to the user in the settings to explain what format they have to enter the Mastodon handle. It should not hint to any example (that's what the placeholder is for), but explain the general format.",
     "hash": "5e2a6e34c5fed46740dc238f1cc7768a"
+  },
+  "optionRedirectInMainWindow": {
+    "message": "Verhindere die Nutzung eines Popups.",
+    "description": "This is an option shown in the add-on settings.",
+    "hash": "dc056fc373c7161104ad81b28884a017"
+  },
+  "optionRedirectInMainWindowDescr": {
+    "message": "Verhindert die Benutzung eines extra Fensters und leitet stattdessen die Hauptseite um.",
+    "description": "This is an option shown in the add-on settings.",
+    "hash": "ba0f60f1ae0c6d6785d5eb410247eb11"
+  },
+  "translatorCredit": {
+    "message": "Dieses Add-on wurde von $TRANSLATORS$ ins Deutsche übersetzt.",
+    "description": "The credit text for the translator. See https://github.com/TinyWebEx/common/blob/master/CONTRIBUTING.md#translator-credit-inside-of-add-on for how to translate this.",
+    "placeholders": {
+      "translators": { "content": "$1", "example": "<a href=\"https://github.com/rugk/\">@rugk</a>" }
+    },
+    "hash": "a6f5deecd624d5f8cd58350c72dd8fdf"
+  },
+  "translatorLink": {
+    "message": "https://github.com/rugk",
+    "description": "The link to the translator's GitHub profile.",
+    "hash": "4775fb2f88fd33d02b871e5021dec3e9"
+  },
+  "translatorUsername": {
+    "message": "rugk",
+    "description": "The username that the translator wants to be referred to.",
+    "hash": "ce96c18a8a1b4b528b294e981ee4d651"
+  },
+  "contributorsThanks": {
+    "message": "Ebenfalls vielen Dank an $CONTRIBUTORS$.",
+    "description": "Text thanking all contributors and linking to the contributors file.",
+    "placeholders": {
+      "contributors": { "content": "$1", "example": "<a href=\"https://github.com/rugk/…/CONTRIBUTORS.md\">all other contributors</a>" }
+    },
+    "hash": "b1434b8b42b1707f37d0531a8efdc7f8"
+  },
+  "contributorsThanksLink": {
+    "message": "https://github.com/rugk/mastodon-simplified-federation/blob/master/CONTRIBUTORS.md",
+    "description": "The link to the CONTRIBUTORS file.",
+    "hash": "1fbeb3813910bf47c53cf596035c27db"
+  },
+  "contributorsThanksLinkText": {
+    "message": "alle anderen Beitragenden",
+    "description": "The link text linking to the contributors file. See contributorsThanks.",
+    "hash": "ce03e1f3b15df3bba66048b30c4f8de4"
   },
 
   // ARIA labels/descriptions for messages
   "dismissIconDescription": {
-    "message": "Fermer ce message",
+    "message": "Diese Nachricht schließen",
     "description": "the aria label for the close button of the message box",
     "hash": "632720ab193dcacba4286cb364124856"
   },
   "ariaMessageInfo": {
-    "message": "message d´information",
+    "message": "Info",
     "description": "the aria label to label the message box as an info message box",
     "hash": "5f54e42067e19895a2641b17a5233418"
   },
   "ariaMessageSuccess": {
-    "message": "message de succès",
+    "message": "Erfolg",
     "description": "the aria label to label the message box as an success message box",
     "hash": "334387b4ae53483d17f11519a70dd3af"
   },
   "ariaMessageError": {
-    "message": "message d´erreur",
+    "message": "Fehlermeldung",
     "description": "the aria label to label the message box as an error message box",
     "hash": "fcda6eedc61727fe8aae7392a0a541a5"
   },
   "ariaMessageWarning": {
-    "message": "message d´avertissement",
+    "message": "Warnung",
     "description": "the aria label to label the message box as an warning message box",
     "hash": "8a5dd7528bead1ccd27cb7430d797bd2"
   },
 
-  "__WET_LOCALE__": { "message": "fr" }
+  "__WET_LOCALE__": { "message": "de" }
 }
+
+```
